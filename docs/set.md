@@ -26,7 +26,7 @@ $set = Set::of('alpha');
 $set2 = $set->add('beta');
 $set3 = $set2->remove('beta');
 
-$set->contains('alhpa'); // true
+$set->contains('alpha'); // true
 ```
 
 If given `$element` already exists in set, same instance will be returned.
